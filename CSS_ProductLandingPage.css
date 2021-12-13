@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1, h3, label, .link-nav-item{
+    font-family: Lobster;
+}
+.link-nav-item{
+    padding-left: 20px;
+}
+button{
+    padding-top: 50px;
+}
+.emails{
+    padding-bottom: 10px;
+}
+.container1, .container2, .container3{
+    /*border: solid;*/
+    padding: 10px 10px 10px 10px;
+    width:50%;
+    margin:auto;
+    text-align:center;
+}
+.container2{
+    padding-top: 6%;
+}
+header{
+    /*border: solid;*/
+    padding: 10px 10px 10px 10px;
+}
+.logo1, .logo2, .logo3{
+    width: 30%;
+    height:auto;
+}
+.guitar-logo{
+    width:auto;
+    height:100%;
+    padding-left:10px;
+}
+.link-nav{
+    padding:10px 10px 10px 10px;
+}
+.container2_item1, .container2_item2, .container2_item3{
+    display: flex;
+}
+
+.logo_1, .logo_2, .logo_3{
+    /*border:solid;*/
+    padding: 5px 5px 5px 5px;    
+    align-self: center;
+}
+.logo_1{
+    width:70%;
+}
+.content1, .content2, .content3{
+    /*border:solid;*/
+    padding: 5px 5px 5px 5px;
+    text-align:left;
+}
+.content1{
+    width:128%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 5px 5px 5px 5px;
+}
+.logo{
+    width: auto;
+    height: auto;
+}
+.btn, .emails-style{
+    width:100%;
+}
+
+.container3{    
+    display: flex; 
+    padding-top: 30px;   
+    padding-bottom: 5%;
+}
+.container3_title{
+    background-color: wheat;
+    padding:5px 5px 5px 5px;
+}
+.container3_item1, .container3_item2, .container3_item3{
+    border:solid;    
+    margin: auto;
+    width:33%;
+    height:250px;    
+}
+.container3_miniitem1,.container3_miniitem2,.container3_miniitem3{
+    padding-top: 15px;
+}
+footer{
+    /*margin: auto;*/
+    display: flex;
+    height: 100px;
+    background-color: thistle;    
+}
+.foot{
+    margin: auto;
+    width:50%;
+    padding:10px 10px 10px 10px;
+    font-size: 12px;
+}
